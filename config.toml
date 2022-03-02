@@ -8,7 +8,7 @@ theme = "blow"
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
 
 [markdown]
 # Whether to do syntax highlighting
@@ -17,6 +17,11 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+enable_search = true
+enable_sidebar = false
+enable_multilingue = false
+enable_adsense = false
+# adsense_link = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=myclientid"
 
 [extra.navbar]
 items = [
@@ -47,6 +52,9 @@ avatar = "https://lh3.googleusercontent.com/ogw/ADea4I4uDNfqRHPhYViysirwyUpZDVdm
 
 [extra.social]
 github = "https://github.com/asins"
+gitlab = "https://gitlab.com/asins"
+# twitter = "https://twitter.com/asins"
+# linkedin = "https://www.linkedin.com/in/xxx/"
 email = "asinsimple@gmail.com"
 
 # [extra.favicon]
