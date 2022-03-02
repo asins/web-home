@@ -1,0 +1,59 @@
+# The URL the site will be built for
+base_url = "https://nootn.com"
+
+# The site theme to use.
+theme = "blow"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+
+[extra.navbar]
+items = [
+  { lang = "zh-cn", links = [
+    { url = "/", name = "首页" },
+    { url = "/notes", name = "开发笔记" },
+    { url = "/projects", name = "项目列表"},
+  ] },
+]
+title = "Asins网家"
+
+[extra.sidebar]
+items = [
+    { lang = "zh-cn", links = [
+        { url = "/markdown", name = "Markdown" },
+        { url = "/blog", name = "Blog" },
+    ] },
+]
+
+# Index page
+[extra.index]
+title = "简单其实不简单"
+image = "https://lh3.googleusercontent.com/ogw/ADea4I4uDNfqRHPhYViysirwyUpZDVdmZ04bL8BwzNlbhA=s128-c-mo"
+
+[extra.default_author]
+name = "Asins"
+avatar = "https://lh3.googleusercontent.com/ogw/ADea4I4uDNfqRHPhYViysirwyUpZDVdmZ04bL8BwzNlbhA=s128-c-mo"
+
+[extra.social]
+github = "https://github.com/asins"
+email = "asinsimple@gmail.com"
+
+# [extra.favicon]
+# favicon = "/icons/favicon.ico"
+# favicon_16x16 = "/icons/favicon-16x16.png"
+# favicon_32x32 = "/icons/favicon-32x32.png"
+# apple_touch_icon = "/icons/apple-touch-icon.png"
+# android_chrome_512 = "/icons/android-chrome-512x512.png"
+# android_chrome_192 = "/icons/android-chrome-192x192.png"
+# manifest = "/icons/site.webmanifest"
