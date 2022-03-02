@@ -24,6 +24,7 @@ enable_adsense = false
 # adsense_link = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=myclientid"
 
 [extra.navbar]
+title = "Asins的网家"
 items = [
   { lang = "zh-cn", links = [
     { url = "/", name = "首页" },
@@ -31,7 +32,6 @@ items = [
     { url = "/projects", name = "项目列表"},
   ] },
 ]
-title = "Asins网家"
 
 [extra.sidebar]
 items = [
@@ -43,7 +43,7 @@ items = [
 
 # Index page
 [extra.index]
-title = "简单其实不简单"
+title = "Asins"
 image = "https://lh3.googleusercontent.com/ogw/ADea4I4uDNfqRHPhYViysirwyUpZDVdmZ04bL8BwzNlbhA=s128-c-mo"
 
 [extra.default_author]
